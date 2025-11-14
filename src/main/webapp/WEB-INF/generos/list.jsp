@@ -23,12 +23,11 @@
                 <c:forEach var="g" items="${generos}">
                     <tr>
                         <td>${g.id}</td>
-                        <td>${g.nome}</td>
+                        <td><a href="/generos/update?id=${item.id}">${g.nome}</a></td>
                     </tr>
                 </c:forEach>                   
             </tbody>
         </table>
-    </div>
-    
+    </div> 
 </body>
 </html>
