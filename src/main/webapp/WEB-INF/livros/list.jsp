@@ -29,7 +29,7 @@
                             <td>${l.titulo}</td>
                             <td>${l.genero.nome}</td>
                             <td>
-                                <c:forEach var="a" items="${a.autores}">
+                                <c:forEach var="a" items="${l.autores}">
                                     ${a.nome}
                                 </c:forEach>
                             </td>
